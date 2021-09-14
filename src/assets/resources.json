@@ -67,5 +67,21 @@
       "path": "https://www.instagram.com/chesterkylescolita/",
       "icon": "fa-instagram"
     }
+  ],
+  "education": [
+    {
+      "name": "University of San Carlos - Talamban Campus",
+      "image": "usc-talamban-bunzel.jpg",
+      "degree": "Master of Science in Electronics Engineering Major in Microelectronics",
+      "year": "Year attended: 2017 - 2021",
+      "remarks": "System-on-Chip FPGA Implementation of a CNN-based Face Detection System for Bulletin"
+    },
+    {
+      "name": "University of Cebu - Banilad",
+      "image": "uc-banilad.jpg",
+      "degree": "Bachelor of Science in Electronics Engineering",
+      "year": "Year attended: 2010 - 2015",
+      "remarks": "Thesis: Adaptive Traffic Light System based on the Density of the Vehicles"
+    }
   ]
 }

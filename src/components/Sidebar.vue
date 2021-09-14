@@ -1,8 +1,8 @@
 <template>
-  <div class="d-flex flex-column p-3 text-white bg-dark sidebar">
+  <div class="d-flex flex-column p-3 text-white bg-dark sidebar sticky-top">
     <div class="img-sidebar">
       <div class="img-container">
-        <img src="../assets/profile.jpg">
+        <img :src="require(`../assets/images/${$options.profilePic}`)">
       </div>
     </div>
     <ul class="nav nav-pills flex-column mb-auto">
@@ -22,7 +22,8 @@ export default {
   },
   props: {
     menu: Array
-  }
+  },
+  profilePic: "profile.jpg",
 }
 </script>
 

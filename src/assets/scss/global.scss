@@ -15,19 +15,18 @@ main {
   height: -webkit-fill-available;
   max-height: 100vh;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .container {
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
   width: 100%;
 }
 
 .container > .content {
-  padding-left: 6rem;
-  padding-right: 6rem;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .vertical-center {
@@ -36,4 +35,14 @@ main {
   top: 50%;
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+.v-center {
+  display: inline-block;
+}
+
+h1,h2,h3,h4 {
+  text-transform: uppercase;
+  font-family: 'Saira Condensed', sans-serif;
+  font-stretch: ultra-condensed;
 }
