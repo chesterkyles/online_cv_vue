@@ -1,9 +1,9 @@
 <template>
   <li class="nav-item">
-    <a href="#" class="nav-link text-white">
+    <router-link :to="{ name: item.pathname }" class="nav-link text-white">
       <i :class="item.icon"></i>
       {{item.title}}
-    </a>
+    </router-link>
   </li>
 </template>
 

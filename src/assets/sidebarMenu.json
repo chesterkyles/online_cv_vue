@@ -2,31 +2,38 @@
   "sidebarMenu": [
     {
       "title": "About",
-      "icon": "fa fa-solid fa-user-tie"
+      "icon": "fa fa-solid fa-user-tie",
+      "pathname": "About"
     },
     {
       "title": "Education",
-      "icon": "fa fa-solid fa-graduation-cap"
+      "icon": "fa fa-solid fa-graduation-cap",
+      "pathname": "Education"
     },
     {
       "title": "Experience",
-      "icon": "fa fa-solid fa-briefcase"
+      "icon": "fa fa-solid fa-briefcase",
+      "pathname": "Experience"
     },
     {
       "title": "Skills",
-      "icon": "fa fa-solid fa-robot"
+      "icon": "fa fa-solid fa-robot",
+      "pathname": "Skills"
     },
     {
       "title": "Achievements",
-      "icon": "fa fa-solid fa-medal"
+      "icon": "fa fa-solid fa-medal",
+      "pathname": "Achievements"
     },
     {
       "title": "Conferences",
-      "icon": "fa fa-solid fa-users"
+      "icon": "fa fa-solid fa-users",
+      "pathname": "Conferences"
     },
     {
       "title": "Projects",
-      "icon": "fa fa-solid fa-laptop"
+      "icon": "fa fa-solid fa-laptop",
+      "pathname": "Projects"
     }
   ]
 }

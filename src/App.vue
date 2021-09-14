@@ -1,6 +1,7 @@
 <template>
   <main>
     <Sidebar :menu="sidebarMenu"/>
+    <router-view></router-view>
     <div class="container">
       <div class="content">
         <section id="about" class="resume-section p-5 p-lg-5">
