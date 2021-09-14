@@ -25,6 +25,7 @@
     "sass": "^1.40.0",
     "sass-loader": "^10.1.1",
     "vue-devtools": "^5.1.4",
+    "vue-particles": "^1.0.9",
     "vue-router": "^3.5.2",
     "vue-template-compiler": "^2.6.11",
     "vue-typer": "^1.2.0"
