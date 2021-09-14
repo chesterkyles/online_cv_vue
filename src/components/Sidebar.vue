@@ -6,11 +6,7 @@
       </div>
     </div>
     <ul class="nav nav-pills flex-column mb-auto">
-      <SidebarItem 
-        v-for="(item, index) in menu"
-        :key="index"
-        :item="item"
-      />
+      <SidebarItem v-for="(item, index) in menu" :key="index" :item="item" />
     </ul>
     <hr>
   </div>
@@ -54,8 +50,8 @@ img {
   margin-left: auto;
   margin-right: auto;
   border-radius: 50%;
-  height: 180px; 
-  width : 180px;
+  height: 170px; 
+  width : 170px;
   object-fit: cover;
   padding: 0.3rem;
   --bs-bg-opacity: 0.5;

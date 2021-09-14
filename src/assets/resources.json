@@ -1,0 +1,71 @@
+{
+  "sidebarMenu": [
+    {
+      "title": "About",
+      "icon": "fas fa-user-tie",
+      "pathname": "About"
+    },
+    {
+      "title": "Education",
+      "icon": "fas fa-graduation-cap",
+      "pathname": "Education"
+    },
+    {
+      "title": "Experience",
+      "icon": "fas fa-briefcase",
+      "pathname": "Experience"
+    },
+    {
+      "title": "Skills",
+      "icon": "fas fa-robot",
+      "pathname": "Skills"
+    },
+    {
+      "title": "Achievements",
+      "icon": "fas fa-medal",
+      "pathname": "Achievements"
+    },
+    {
+      "title": "Conferences",
+      "icon": "fas fa-users",
+      "pathname": "Conferences"
+    },
+    {
+      "title": "Projects",
+      "icon": "fas fa-laptop",
+      "pathname": "Projects"
+    }
+  ],
+  "personalInfo": [
+    {
+      "text": "Cebu City, Cebu, Philippines",
+      "icon": "fas fa-map-marker-alt"
+    },
+    {
+      "text": "09151622262 / 09176508176",
+      "icon": "fas fa-phone-alt"
+    },
+    {
+      "text": "chesterkylescolita07@gmail.com",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "text": "chestercolita_cv.docx",
+      "icon": "fas fa-download"
+    }
+  ],
+  "personalLinks": [
+    {
+      "path": "https://www.linkedin.com/in/chesterkyles/",
+      "icon": "fa-linkedin-in"
+    },
+    {
+      "path": "https://www.github.com/chestercolita",
+      "icon": "fa-github-alt"
+    },
+    {
+      "path": "https://www.instagram.com/chesterkylescolita/",
+      "icon": "fa-instagram"
+    }
+  ]
+}
