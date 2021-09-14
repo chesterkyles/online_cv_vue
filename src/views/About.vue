@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="vertical-center">
+  <div id="about" class="col-8">
     <h1>{{firstName}}&nbsp;<div class="text">{{lastName}}</div></h1>
     <h3 class="mb-4">
       <VueTyper
@@ -50,15 +50,8 @@ export default {
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@600&display=swap');
-h1,h3 {
-  text-transform: uppercase;
-  font-family: 'Saira Condensed', sans-serif;
-  font-stretch: ultra-condensed;
-}
-
 h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
   line-height: 4rem;
   font-weight: 700;
 }

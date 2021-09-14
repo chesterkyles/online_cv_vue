@@ -1,8 +1,27 @@
 <template>
-  <div class="d-flex flex-column p-3 text-white bg-dark sidebar">
+  <div class="d-flex flex-column p-3 text-white bg-dark sidebar sticky-top">
     <div class="img-sidebar">
+      <vue-particles
+        color="#dedede"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="4"
+        linesColor="#dedede"
+        :linesWidth="1"
+        :lineLinked="true"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+        class="particles"
+      >
+      </vue-particles>
       <div class="img-container">
-        <img src="../assets/profile.jpg">
+        <router-link :to="{ name: 'Home' }"><img :src="require(`../assets/images/${$options.profilePic}`)"></router-link>
       </div>
     </div>
     <ul class="nav nav-pills flex-column mb-auto">
@@ -22,7 +41,8 @@ export default {
   },
   props: {
     menu: Array
-  }
+  },
+  profilePic: "profile.jpg",
 }
 </script>
 
@@ -56,5 +76,10 @@ img {
   padding: 0.3rem;
   --bs-bg-opacity: 0.5;
   background-color: rgba(var(--bs-white-rgb),var(--bs-bg-opacity));
+}
+
+.particles {
+  height:230px;
+  padding:10px;
 }
 </style>
