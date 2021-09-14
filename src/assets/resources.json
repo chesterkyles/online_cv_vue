@@ -73,15 +73,15 @@
       "name": "University of San Carlos - Talamban Campus",
       "image": "usc-talamban-bunzel.jpg",
       "degree": "Master of Science in Electronics Engineering Major in Microelectronics",
-      "year": "Year attended: 2017 - 2021",
+      "year": "June 2017 - December 2021",
       "remarks": "System-on-Chip FPGA Implementation of a CNN-based Face Detection System for Bulletin"
     },
     {
       "name": "University of Cebu - Banilad",
       "image": "uc-banilad.jpg",
       "degree": "Bachelor of Science in Electronics Engineering",
-      "year": "Year attended: 2010 - 2015",
-      "remarks": "Thesis: Adaptive Traffic Light System based on the Density of the Vehicles"
+      "year": "June 2010 - March 2015",
+      "remarks": "Adaptive Traffic Light System based on the Density of the Vehicles"
     }
   ]
 }
