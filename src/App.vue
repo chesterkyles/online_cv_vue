@@ -11,7 +11,7 @@
 
 <script>
 import Sidebar from './components/Sidebar'
-import { sidebarMenu } from './assets/sidebarMenu.json'
+import { sidebarMenu } from './assets/resources.json'
 
 export default {
   name: 'App',
@@ -27,5 +27,5 @@ export default {
 </script>
 
 <style>
-@import './assets/scss/global.scss'
+@import './assets/scss/global.scss';
 </style>

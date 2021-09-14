@@ -23,8 +23,15 @@ i {
   width: 25px;
 }
 
-.nav-link:hover {
+.nav-link:hover:not(.router-link-active) {
   --bs-bg-opacity: 0.1;
   background-color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity))!important;
 }
+
+.router-link-active,
+.router-link-exact-active {
+  --bs-bg-opacity: 0.5;
+  background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
+}
+
 </style>
