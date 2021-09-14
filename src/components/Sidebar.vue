@@ -21,7 +21,7 @@
       >
       </vue-particles>
       <div class="img-container">
-        <img :src="require(`../assets/images/${$options.profilePic}`)">
+        <router-link :to="{ name: 'Home' }"><img :src="require(`../assets/images/${$options.profilePic}`)"></router-link>
       </div>
     </div>
     <ul class="nav nav-pills flex-column mb-auto">
