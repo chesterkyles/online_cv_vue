@@ -1,0 +1,32 @@
+{
+  "sidebarMenu": [
+    {
+      "title": "About",
+      "icon": "fa fa-solid fa-user-tie"
+    },
+    {
+      "title": "Education",
+      "icon": "fa fa-solid fa-graduation-cap"
+    },
+    {
+      "title": "Experience",
+      "icon": "fa fa-solid fa-briefcase"
+    },
+    {
+      "title": "Skills",
+      "icon": "fa fa-solid fa-robot"
+    },
+    {
+      "title": "Achievements",
+      "icon": "fa fa-solid fa-medal"
+    },
+    {
+      "title": "Conferences",
+      "icon": "fa fa-solid fa-users"
+    },
+    {
+      "title": "Projects",
+      "icon": "fa fa-solid fa-laptop"
+    }
+  ]
+}
