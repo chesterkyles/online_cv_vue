@@ -1,14 +1,9 @@
 <template>
   <main>
     <Sidebar :menu="sidebarMenu"/>
-    <router-view></router-view>
     <div class="container">
       <div class="content">
-        <section id="about" class="resume-section p-5 p-lg-5">
-          <div class="vertical-center">
-            Chester
-          </div>
-        </section>
+        <router-view></router-view>
       </div>
     </div>
   </main>
@@ -32,49 +27,5 @@ export default {
 </script>
 
 <style>
-html, body {
-  height:100%;
-}
-
-body {
-  margin: 0;
-}
-
-main {
-  --bs-bg-opacity: 0.2;
-  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
-  display: flex;
-  flex-wrap: nowrap;
-  height: 100vh;
-  height: -webkit-fill-available;
-  max-height: 100vh;
-  overflow-x: auto;
-  overflow-y: hidden;
-}
-
-.container {
-  padding-top: 3rem!important;
-  padding-bottom: 3rem!important;
-  width: 100%;
-}
-
-.container > .content {
-  padding-left: 4rem;
-  padding-right: 4rem;
-  min-height: 100vh;
-}
-
-.resume-section {
-  display: block;
-  min-height: 100vh;
-
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
+@import './assets/scss/global.scss'
 </style>
