@@ -1,14 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import About from '../views/About'
-import Education from '../views/Education'
-import Experience from '../views/Experience'
-import Skills from '../views/Skills'
-import Achievements from '../views/Achievements'
-import Conferences from '../views/Conferences'
-import Projects from '../views/Projects'
-
 Vue.use(VueRouter)
 
 const routes = [
@@ -24,41 +16,37 @@ const routes = [
   {
     path: '/about',
     name: 'About',
-    component: About,
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    // component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
     path: '/education',
     name: 'Education',
-    component: Education,
+    component: () => import(/* webpackChunkName: "education" */ '../views/Education.vue')
   },
   {
     path: '/experience',
     name: 'Experience',
-    component: Experience,
+    component: () => import(/* webpackChunkName: "experience" */ '../views/Experience.vue')
   },
   {
     path: '/skills',
     name: 'Skills',
-    component: Skills,
+    component: () => import(/* webpackChunkName: "skills" */ '../views/Skills.vue')
   },
   {
     path: '/achievements',
     name: 'Achievements',
-    component: Achievements,
+    component: () => import(/* webpackChunkName: "achievements" */ '../views/Achievements.vue')
   },
   {
     path: '/conferences',
     name: 'Conferences',
-    component: Conferences,
+    component: () => import(/* webpackChunkName: "conferences" */ '../views/Conferences.vue')
   },
   {
     path: '/projects',
     name: 'Projects',
-    component: Projects,
+    component: () => import(/* webpackChunkName: "projects" */ '../views/Projects.vue')
   },
 ]
 
