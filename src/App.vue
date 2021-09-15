@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <div class="main">
     <Sidebar :menu="sidebarMenu"/>
     <div class="container">
       <div class="content">
         <router-view></router-view>
       </div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
@@ -27,5 +27,28 @@ export default {
 </script>
 
 <style>
-@import './assets/scss/global.scss';
+.main {
+  --bs-bg-opacity: 0.2;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
+  display: flex;
+  flex-wrap: nowrap;
+  height: -webkit-fill-available;
+}
+
+.container {
+  width: 100%;
+}
+
+.container > .content {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,h2,h3,h4 {
+  text-transform: uppercase;
+  font-family: 'Saira Condensed', sans-serif;
+  font-stretch: ultra-condensed;
+}
 </style>

@@ -8,7 +8,7 @@
     {
       "name": "Laravel",
       "icon": "devicon-laravel-plain-wordmark",
-      "percentage": "84%"
+      "percentage": "75%"
     },
     {
       "name": "HTML5",
@@ -23,7 +23,7 @@
     {
       "name": "Bootstrap",
       "icon": "devicon-bootstrap-plain-wordmark",
-      "percentage": "83%"
+      "percentage": "80%"
     },
     {
       "name": "Javascript",
@@ -68,7 +68,7 @@
     {
       "name": "Git",
       "icon": "devicon-git-plain-wordmark",
-      "percentage": "78%"
+      "percentage": "75%"
     },
     {
       "name": "Github",
@@ -78,7 +78,7 @@
     {
       "name": "Markdown",
       "icon": "devicon-markdown-original",
-      "percentage": "88%"
+      "percentage": "85%"
     },
     {
       "name": "Nginx",
@@ -113,7 +113,7 @@
     {
       "name": "C",
       "icon": "devicon-c-plain",
-      "percentage": "88%"
+      "percentage": "85%"
     },
     {
       "name": "C++",
@@ -128,22 +128,22 @@
     {
       "name": "Raspberry Pi",
       "icon": "devicon-raspberrypi-line",
-      "percentage": "88%"
+      "percentage": "85%"
     },
     {
       "name": "Matlab",
       "icon": "devicon-matlab-plain",
-      "percentage": "85%"
+      "percentage": "75%"
     },
     {
       "name": "Python",
       "icon": "devicon-python-plain-wordmark",
-      "percentage": "80%"
+      "percentage": "75%"
     },
     {
       "name": "Tensorflow",
       "icon": "devicon-tensorflow-original",
-      "percentage": "45%"
+      "percentage": "35%"
     },
     {
       "name": "Jupyter",
@@ -164,6 +164,8 @@
   "workflows": [
     "Software Development Life Cycle",
     "Scrum Sprint Cycle",
-    "Github Development Workflow"
+    "Github Development Workflow",
+    "Team Collaboration and Communication using Slack",
+    "Cypress End-to-End Testing"
   ]
 }
