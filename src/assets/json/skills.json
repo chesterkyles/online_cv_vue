@@ -1,0 +1,164 @@
+{
+  "skills": [
+    {
+      "name": "PHP",
+      "icon": "devicon-php-plain",
+      "percentage": "85%"
+    },
+    {
+      "name": "Laravel",
+      "icon": "devicon-laravel-plain-wordmark",
+      "percentage": "84%"
+    },
+    {
+      "name": "HTML5",
+      "icon": "devicon-html5-plain-wordmark",
+      "percentage": "80%"
+    },
+    {
+      "name": "CSS3",
+      "icon": "devicon-css3-plain-wordmark",
+      "percentage": "75%"
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "devicon-bootstrap-plain-wordmark",
+      "percentage": "83%"
+    },
+    {
+      "name": "Javascript",
+      "icon": "devicon-javascript-plain",
+      "percentage": "75%"
+    },
+    {
+      "name": "Node.js",
+      "icon": "devicon-nodejs-plain-wordmark",
+      "percentage": "60%"
+    },
+    {
+      "name": "jQuery",
+      "icon": "devicon-jquery-plain-wordmark",
+      "percentage": "60%"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "devicon-vuejs-plain-wordmark",
+      "percentage": "70%"
+    },
+    {
+      "name": "React",
+      "icon": "devicon-react-original-wordmark",
+      "percentage": "30%"
+    },
+    {
+      "name": "npm",
+      "icon": "devicon-npm-original-wordmark",
+      "percentage": "65%"
+    },
+    {
+      "name": "firebase",
+      "icon": "devicon-firebase-plain-wordmark",
+      "percentage": "55%"
+    },
+    {
+      "name": "Google Cloud",
+      "icon": "devicon-googlecloud-plain",
+      "percentage": "45%"
+    },
+    {
+      "name": "Git",
+      "icon": "devicon-git-plain-wordmark",
+      "percentage": "78%"
+    },
+    {
+      "name": "Github",
+      "icon": "devicon-github-original",
+      "percentage": "80%"
+    },
+    {
+      "name": "Markdown",
+      "icon": "devicon-markdown-original",
+      "percentage": "88%"
+    },
+    {
+      "name": "Nginx",
+      "icon": "devicon-nginx-original",
+      "percentage": "60%"
+    },
+    {
+      "name": "MySQL",
+      "icon": "devicon-mysql-plain-wordmark",
+      "percentage": "75%"
+    },
+    {
+      "name": "Docker",
+      "icon": "devicon-docker-plain-wordmark",
+      "percentage": "75%"
+    },
+    {
+      "name": "Kubernetes",
+      "icon": "devicon-kubernetes-plain-wordmark",
+      "percentage": "40%"
+    },
+    {
+      "name": "Bash",
+      "icon": "devicon-bash-plain",
+      "percentage": "80%"
+    },
+    {
+      "name": "Linux",
+      "icon": "devicon-linux-plain",
+      "percentage": "80%"
+    },
+    {
+      "name": "C",
+      "icon": "devicon-c-plain",
+      "percentage": "88%"
+    },
+    {
+      "name": "C++",
+      "icon": "devicon-cplusplus-plain",
+      "percentage": "85%"
+    },
+    {
+      "name": "Arduino",
+      "icon": "devicon-arduino-plain-wordmark",
+      "percentage": "90%"
+    },
+    {
+      "name": "Raspberry Pi",
+      "icon": "devicon-raspberrypi-line",
+      "percentage": "88%"
+    },
+    {
+      "name": "Matlab",
+      "icon": "devicon-matlab-plain",
+      "percentage": "85%"
+    },
+    {
+      "name": "Python",
+      "icon": "devicon-python-plain-wordmark",
+      "percentage": "80%"
+    },
+    {
+      "name": "Tensorflow",
+      "icon": "devicon-tensorflow-original",
+      "percentage": "45%"
+    },
+    {
+      "name": "Jupyter",
+      "icon": "devicon-jupyter-plain-wordmark",
+      "percentage": "50%"
+    },
+    {
+      "name": "Vscode",
+      "icon": "devicon-vscode-plain",
+      "percentage": "80%"
+    },
+    {
+      "name": "Gimp",
+      "icon": "devicon-gimp-plain",
+      "percentage": "70%"
+    }
+  ]
+}
