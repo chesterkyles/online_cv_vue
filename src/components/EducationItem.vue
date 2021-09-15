@@ -1,14 +1,14 @@
 <template>
   <div class="postcard dark blue">
-    <img class="postcard__img" :src="require(`../assets/images/${school.image}`)" :alt="school.name" />
-    <div class="postcard__text">
-      <h1 class="postcard__title blue">{{ school.name }}</h1>
-      <h5 class="postcard__subtitle">{{ school.degree }}</h5>
-      <div class="postcard__bar"></div>
-      <div class="postcard__preview-txt">
+    <img class="postcard_img" :src="require(`../assets/images/${school.image}`)" :alt="school.name" />
+    <div class="postcard_text">
+      <h1 class="postcard_title blue">{{ school.name }}</h1>
+      <h5 class="postcard_subtitle">{{ school.degree }}</h5>
+      <div class="postcard_bar"></div>
+      <div class="postcard_preview-txt">
         <span>Year Attended: </span>{{ school.year }}
       </div>
-      <div class="postcard__preview-txt">
+      <div class="postcard_preview-txt">
         <span>Thesis: </span>{{ school.remarks }}
       </div>
     </div>
