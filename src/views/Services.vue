@@ -1,9 +1,7 @@
 <template>
-  <section id="about" class="p-5 p-lg-5">
-    <div class="vertical-center">
-      <h1>This is a services page</h1>
-    </div>
-  </section>
+  <div :id="$options.name" class="col-10">
+    <h1><i class="fas fa-tools"></i>&nbsp;Page Under Construction!</h1>
+  </div>
 </template>
 
 <script>
@@ -11,3 +9,11 @@ export default {
   name: 'Services',
 }
 </script>
+
+<style scoped>
+h1 {
+  font-size: 3.8rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+</style>
