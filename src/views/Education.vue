@@ -1,5 +1,5 @@
 <template>
-  <div id="education" class="col-10 mt-0 pt-0">
+  <div :id="$options.name" class="col-10 mt-0 pt-0">
     <h1>{{$options.name}}</h1>
     <EducationItem v-for="(school, index) in educationList" :key="index" :school="school" />
   </div>

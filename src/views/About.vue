@@ -1,5 +1,5 @@
 <template>
-  <div id="about" class="col-8">
+  <div :id="$options.name" class="col-8">
     <h1>{{firstName}}&nbsp;<div class="text">{{lastName}}</div></h1>
     <h3 class="mb-4">
       <VueTyper
