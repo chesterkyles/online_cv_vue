@@ -83,5 +83,55 @@
       "year": "June 2010 - March 2015",
       "remarks": "Adaptive Traffic Light System based on the Density of the Vehicles"
     }
+  ],
+  "experience": [
+    {
+      "title": "Web Engineer",
+      "company": "Nabepero Philippines, Inc.",
+      "years": "December 2020 - Present",
+      "description": [
+        "Develop and/or manage website using the Laravel framework (for backend) and/or javascript frameworks (for frontend)",
+        "Develop management system for major cram school and provide learning management application",
+        "Obtain new learnings together with the entire team as part of the smart goals"
+      ]
+    },
+    {
+      "title": "Math Content Creator",
+      "company": "Photomath, Inc.",
+      "years": "May 2020 – Present (Freelance)",
+      "description": [
+        "Create solving steps with explanations in English for each problem from different math textbooks",
+        "Review solutions contributed by other math experts and provide feedback if necessary"
+      ]
+    },
+    {
+      "title": "Digital Design Engineer",
+      "company": "Wave Computing, Inc.",
+      "years": "June 2019 – July 2019 (Internship)",
+      "description": [
+        "Design and debug functional blocks and interconnections of various IPs in the process of designing an integrated circuit intended mainly for deep learning and artificial intelligence",
+        "Work as an intern: Trained by the verification team to design I2C bus, and Create software toolchain for automatic register verification (ARV)"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Kyocera Document Solutions Development Philippines, Inc.",
+      "years": "June 2016 – July 2017",
+      "description": [
+        "Design and debug firmware/software for a multifunctional printer (MFP) particularly the scanner function and functions related to it following the software development life cycle",
+        "Fix bugs reported by QA as JIRA issues and document the fix for future reference",
+        "Test printer functional implementations and report bugs if there are bugs found during testing"
+      ]
+    },
+    {
+      "title": "Faculty, College of Electronics Engineering",
+      "company": "University of Cebu - Banilad",
+      "years": "November 2015 – March 2017",
+      "description": [
+        "Teach various engineering subjects such as engineering mathematics, digital communications, embedded software programming, circuits and electronics, etc.",
+        "Full Time: November 2015 - March 2016",
+        "Part-Time: June 2016 - October 2016, and November 2016 - March 2017"
+      ]
+    }
   ]
 }
