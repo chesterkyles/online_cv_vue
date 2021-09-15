@@ -45,12 +45,22 @@ h3 {
   }
 
   h3, h4 {
-    font-size: 1.5rem;
     text-align: center;
   }
 
+  h3 { font-size: 1.3rem; }
+
+  h4 { 
+    font-size: 1.2rem; 
+    text-transform: none;
+  }
+
   .card_details_bar, .card_details_list {
-    display: none;
+    display: none!important;
+  }
+
+  .card_text {
+    padding: 1rem!important;
   }
 }
 

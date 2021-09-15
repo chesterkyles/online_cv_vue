@@ -43,7 +43,7 @@ h1 {
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     text-align: center;
-    font-size: 3rem;
+    font-size: 3rem!important;
     margin-top: 20px;
     margin-bottom: 10px;
   }
