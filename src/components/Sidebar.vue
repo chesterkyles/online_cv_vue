@@ -62,7 +62,7 @@ export default {
 }
 
 .img-sidebar {
-  height: 48%;
+  height: 47.5%;
   padding-bottom: 20px;
   position: relative;
 }
@@ -89,7 +89,7 @@ img {
 }
 
 .particles {
-  height:230px;
+  height:210px;
   padding:10px;
 }
 </style>

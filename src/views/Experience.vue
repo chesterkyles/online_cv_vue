@@ -1,7 +1,7 @@
 <template>
-  <div :id="$options.name" class="row col-10 col-md-11 mt-0 pt-0">
+  <div :id="$options.name" class="row col-10 col-md-11">
     <div class="col-lg-1 p-0"><h1>{{ $options.name }}</h1></div>
-    <div class="col-lg-11 experience-item">
+    <div class="col-lg-11 mb-4">
       <ExperienceItem v-for="(job,index) in experienceList" :key="index" :job="job" />
     </div>
   </div>
