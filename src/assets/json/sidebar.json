@@ -34,6 +34,16 @@
       "title": "Projects",
       "icon": "fas fa-laptop",
       "pathname": "Projects"
+    },
+    {
+      "title": "Services",
+      "icon": "fas fa-hands-helping",
+      "pathname": "Services"
+    },
+    {
+      "title": "Contact Me",
+      "icon": "fas fa-envelope",
+      "pathname": "Contact"
     }
   ]
 }

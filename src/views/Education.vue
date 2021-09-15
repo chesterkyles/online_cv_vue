@@ -1,5 +1,5 @@
 <template>
-  <div :id="$options.name" class="col-10 mt-0 pt-0">
+  <div :id="$options.name" class="col-10">
     <h1>{{$options.name}}</h1>
     <EducationItem v-for="(school, index) in educationList" :key="index" :school="school" />
   </div>
@@ -27,5 +27,13 @@ h1 {
   font-size: 3.8rem;
   line-height: 4rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 </style>

@@ -27,6 +27,7 @@
     "node-sass": "^6.0.1",
     "sass": "^1.40.0",
     "sass-loader": "^10.1.1",
+    "vue-concise-slider": "^4.1.8",
     "vue-devtools": "^5.1.4",
     "vue-particles": "^1.0.9",
     "vue-router": "^3.5.2",
