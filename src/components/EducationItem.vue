@@ -1,6 +1,6 @@
 <template>
-  <div class="postcard dark blue">
-    <img class="postcard_img" :src="require(`../assets/images/${school.image}`)" :alt="school.name" />
+  <div class="postcard dark blue" v-lazy-container="{ selector: 'img' }">
+    <img class="postcard_img" :data-src="require(`../assets/images/${school.image}`)" :alt="school.name" />
     <div class="postcard_text">
       <h1 class="postcard_title blue">{{ school.name }}</h1>
       <h5 class="postcard_subtitle">{{ school.degree }}</h5>

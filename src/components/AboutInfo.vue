@@ -1,6 +1,13 @@
 <template>
   <div class="my-1">
-    <i :class="info.icon"></i>{{info.text}}
+    <div v-if="isDownload(info.icon)">
+      <a :href="pdfFile" :download="info.text">
+        <i :class="info.icon"></i>{{info.text}}
+      </a>
+    </div>
+    <div v-else>
+      <i :class="info.icon"></i>{{info.text}}
+    </div>
   </div>
 </template>
 
@@ -9,6 +16,16 @@ export default {
   name: 'AboutInfo',
   props: {
     info: Object
+  },
+  methods: {
+    isDownload(icon) {
+      return icon.includes("download");
+    }
+  },
+  data() {
+    return {
+      pdfFile: `${process.env.BASE_URL}chestercolita_cv.pdf`
+    }
   }
 }
 </script>
@@ -17,5 +34,10 @@ export default {
 i {
   margin-right: 0.5rem;
   width: 15px;
+}
+
+a {
+  color: var(--bs-body-color)!important;
+  text-decoration: none;
 }
 </style>

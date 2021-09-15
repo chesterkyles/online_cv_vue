@@ -20,9 +20,9 @@
         class="particles"
       >
       </vue-particles>
-      <div class="img-container">
+      <div class="img-container" v-lazy-container="{ selector: 'img' }">
         <router-link :to="{ name: 'Home' }">
-          <img :src="require(`../assets/images/${$options.profilePic}`)">
+          <img :data-src="require(`../assets/images/${$options.profilePic}`)">
         </router-link>
       </div>
     </div>
