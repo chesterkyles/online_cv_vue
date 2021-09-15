@@ -7,7 +7,7 @@
 
 <script>
 import EducationItem from '../components/EducationItem'
-import { education } from '../assets/resources.json'
+import { education } from '../assets/json/education.json'
 
 export default {
   name: 'Education',

@@ -9,7 +9,7 @@
 
 <script>
 import ExperienceItem from '../components/ExperienceItem'
-import { experience } from '../assets/resources.json'
+import { experience } from '../assets/json/experience.json'
 
 export default {
   name: 'Experience',

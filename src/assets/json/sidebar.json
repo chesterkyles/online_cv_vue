@@ -1,0 +1,39 @@
+{
+  "sidebarMenu": [
+    {
+      "title": "About",
+      "icon": "fas fa-user-tie",
+      "pathname": "About"
+    },
+    {
+      "title": "Education",
+      "icon": "fas fa-graduation-cap",
+      "pathname": "Education"
+    },
+    {
+      "title": "Experience",
+      "icon": "fas fa-briefcase",
+      "pathname": "Experience"
+    },
+    {
+      "title": "Skills",
+      "icon": "fas fa-robot",
+      "pathname": "Skills"
+    },
+    {
+      "title": "Achievements",
+      "icon": "fas fa-medal",
+      "pathname": "Achievements"
+    },
+    {
+      "title": "Conferences",
+      "icon": "fas fa-users",
+      "pathname": "Conferences"
+    },
+    {
+      "title": "Projects",
+      "icon": "fas fa-laptop",
+      "pathname": "Projects"
+    }
+  ]
+}

@@ -11,7 +11,7 @@
 
 <script>
 import Sidebar from './components/Sidebar'
-import { sidebarMenu } from './assets/resources.json'
+import { sidebarMenu } from './assets/json/sidebar.json'
 
 export default {
   name: 'App',

@@ -1,0 +1,34 @@
+{
+  "personalInfo": [
+    {
+      "text": "Cebu City, Cebu, Philippines",
+      "icon": "fas fa-map-marker-alt"
+    },
+    {
+      "text": "09151622262 / 09176508176",
+      "icon": "fas fa-phone-alt"
+    },
+    {
+      "text": "chesterkylescolita07@gmail.com",
+      "icon": "fas fa-envelope"
+    },
+    {
+      "text": "chestercolita_cv.pdf",
+      "icon": "fas fa-download"
+    }
+  ],
+  "personalLinks": [
+    {
+      "path": "https://www.linkedin.com/in/chesterkyles/",
+      "icon": "fa-linkedin-in"
+    },
+    {
+      "path": "https://www.github.com/chestercolita",
+      "icon": "fa-github-alt"
+    },
+    {
+      "path": "https://www.instagram.com/chesterkylescolita/",
+      "icon": "fa-instagram"
+    }
+  ]
+}
