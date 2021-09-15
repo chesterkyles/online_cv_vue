@@ -5,8 +5,8 @@ $main-yellow: #bdbb49 !default;
 $main-yellow-rgb-015: rgba(189, 187, 73, 0.1) !default;
 $main-red: #bd150b !default;
 $main-red-rgb-015: rgba(189, 21, 11, 0.1) !default;
-$main-blue: #0076bd !default;
-$main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
+$main-blue: rgba(var(--bs-info-rgb), 0.8) !default;
+$main-blue-rgb-015: rgba(var(--bs-info-rgb), 0.05) !default;
 
 /* This pen */
 .dark {
@@ -101,30 +101,6 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
     height: 100%;
   }
 
-  .postcard__tagbox {
-    display: flex;
-    flex-flow: row wrap;
-    font-size: 14px;
-    margin: 20px 0 0 0;
-		padding: 0;
-    justify-content: center;
-
-    .tag__item {
-      display: inline-block;
-      background: rgba(83, 83, 83, 0.4);
-      border-radius: 3px;
-      padding: 2.5px 10px;
-      margin: 0 5px 5px 0;
-      cursor: default;
-      user-select: none;
-      transition: background-color 0.3s;
-
-      &:hover {
-        background: rgba(83, 83, 83, 0.8);
-      }
-    }
-  }
-
   &:before {
     content: "";
     position: absolute;
@@ -156,10 +132,6 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
       font-size: 2rem;
     }
 
-    .postcard__tagbox {
-      justify-content: start;
-    }
-
     .postcard__img {
       max-width: 300px;
       max-height: 100%;
@@ -170,18 +142,7 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
       padding: 3rem;
       width: 100%;
     }
-
-    .media.postcard__text:before {
-      content: "";
-      position: absolute;
-      display: block;
-      --bs-bg-opacity: 0.9;
-      background: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
-      top: -20%;
-      height: 130%;
-      width: 55px;
-    }
-
+  
     &:hover .postcard__img {
       transform: scale(1.1);
     }
@@ -204,6 +165,7 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
       transform: rotate(-4deg);
     }
   }
+
   .postcard__text {
     padding: 2rem 3.5rem;
   }
@@ -231,7 +193,9 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
   }
 }
 
-/* COLORS */
+/***************************/
+/******** COLORS ***********/
+/***************************/
 .postcard .postcard__tagbox .green.play:hover {
 	background: $main-green;
 	color: black;
@@ -311,7 +275,7 @@ $main-blue-rgb-015: rgba(0, 118, 189, 0.1) !default;
 	);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
 	.green::before {
 		background-image: linear-gradient(
 			-80deg,
