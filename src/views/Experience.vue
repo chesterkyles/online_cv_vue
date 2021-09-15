@@ -1,7 +1,7 @@
 <template>
   <div :id="$options.name" class="row col-10 col-md-11 mt-0 pt-0">
-    <div class="col-1 p-0"><h1>{{ $options.name }}</h1></div>
-    <div class="col-11 experience-item">
+    <div class="col-lg-1 p-0"><h1>{{ $options.name }}</h1></div>
+    <div class="col-lg-11 experience-item">
       <ExperienceItem v-for="(job,index) in experienceList" :key="index" :job="job" />
     </div>
   </div>
@@ -36,5 +36,16 @@ h1 {
 
 .row {
   align-items: center!important;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 }
 </style>

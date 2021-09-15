@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-column p-4 text-white sidebar sticky-top">
+  <div class="flex-column p-4 text-white sidebar sticky-top">
     <div class="img-sidebar">
       <vue-particles
         color="#dedede"
@@ -52,6 +52,13 @@ export default {
 .sidebar {
   width: 300px;
   background-image: linear-gradient(-20deg, rgb(44, 78, 88, 0.95), rgba(var(--bs-dark-rgb)) 30%);
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .sidebar {
+    display:none;
+  }
 }
 
 .img-sidebar {

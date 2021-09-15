@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-group px-2">
+  <ul class="list-group px-2 mb-5">
     <li v-for="flow in workflows" :key="flow" class="list-group-item">
       <i class="fas fa-check"></i>&nbsp;<span>{{ flow }}</span>
     </li>
