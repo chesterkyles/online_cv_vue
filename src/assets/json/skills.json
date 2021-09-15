@@ -160,5 +160,10 @@
       "icon": "devicon-gimp-plain",
       "percentage": "70%"
     }
+  ],
+  "workflows": [
+    "Software Development Life Cycle",
+    "Scrum Sprint Cycle",
+    "Github Development Workflow"
   ]
 }

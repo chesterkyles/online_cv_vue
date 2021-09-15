@@ -28,7 +28,7 @@
 import { VueTyper } from 'vue-typer'
 import AboutInfo from '../components/AboutInfo'
 import AboutLink from '../components/AboutLink'
-import { personalInfo, personalLinks } from '../assets/resources.json'
+import { personalInfo, personalLinks } from '../assets/json/about.json'
 
 export default {
   name: 'About',
