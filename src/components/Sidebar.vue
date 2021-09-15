@@ -89,7 +89,7 @@ img {
 }
 
 .particles {
-  height:210px;
+  height:220px;
   padding:10px;
 }
 </style>
