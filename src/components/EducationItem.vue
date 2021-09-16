@@ -32,4 +32,23 @@ span {
   color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
   font-weight: 600;
 }
+
+@media screen and (max-width: 768px) {
+  .postcard_text {
+    text-align: center!important;
+  }
+
+  h1 {
+    font-size: 1.5rem!important;
+  }
+
+  h5 {
+    font-size: 1.2rem!important;
+  }
+
+  .postcard_preview-txt {
+    font-size: 0.9rem!important;
+    text-align: center!important;
+  }
+}
 </style>
