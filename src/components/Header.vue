@@ -1,8 +1,7 @@
 <template>
-<!--  navbar-expand navbar-light bg-white topbar mb-4 static-top shadow -->
   <header class="navbar">
     <div v-outside="hideMenu">
-      <tasty-burger-button
+      <TastyBurgerButton
         ref="hamburger"
         type="spin"
         :active="isActive"
@@ -10,7 +9,7 @@
         :active-color="activeColor"
         :rounded="true"
         @toggle="onToggle"
-    />
+      />
       <transition name="fade">
         <Navigation 
           :menu="menu" 

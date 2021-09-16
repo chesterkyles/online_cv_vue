@@ -1,5 +1,4 @@
 <template>
-<!--  navbar-expand navbar-light bg-white topbar mb-4 static-top shadow -->
   <nav>    
     <ul class="nav nav-pills flex-column mt-2 mx-1">
       <SidebarItem v-for="(item, index) in menu" :key="index" :item="item" />
@@ -20,7 +19,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-
-</style>
