@@ -6,7 +6,7 @@
         <span>Send me a message&nbsp;&nbsp;<i class="far fa-envelope"></i></span>
       </h3>
       <span>
-        If you don't get an answer immediately, please feel free to look me elsewhere.
+        If you don't get an answer immediately, please feel free to look for me elsewhere.
         You can find me through the following links below:
       </span>
       <div class="bar mx-0 mt-4"></div>
