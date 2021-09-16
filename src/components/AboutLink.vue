@@ -1,6 +1,6 @@
 <template>
   <li class="list-inline-item mx-0">
-    <a target="blank" :href="link.path">
+    <a target="blank" :href="link.path" :title="link.name">
       <span class="fa-stack fa-lg">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i :class="[link.icon, 'fab fa-stack-1x']"></i>
