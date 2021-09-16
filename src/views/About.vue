@@ -60,7 +60,7 @@ h3 {
   font-weight: 600;
 }
 
-div.text {
+.text {
   display: inline-block;
   --bs-text-opacity: 0.6;
   color: rgba(var(--bs-info-rgb),var(--bs-text-opacity))!important;
@@ -68,5 +68,15 @@ div.text {
   background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
   border-radius: 25px;
   padding: 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  ul {
+    text-align: center;
+  }
 }
 </style>

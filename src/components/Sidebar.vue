@@ -39,7 +39,7 @@ import SidebarItem from './SidebarItem'
 export default {
   name: 'Sidebar',
   components: {
-    SidebarItem
+    SidebarItem,
   },
   props: {
     menu: Array
