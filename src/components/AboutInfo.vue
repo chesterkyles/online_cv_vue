@@ -30,15 +30,21 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 i {
   margin-right: 0.5rem;
   width: 15px;
 }
 
 a {
-  color: var(--bs-body-color)!important;
+  color: var(--bs-body-color);
   text-decoration: none;
+  transition: all .2s ease-in-out;
+
+  :hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+  }
 }
 
 @media screen and (max-width: 768px) {
