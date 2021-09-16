@@ -2,11 +2,11 @@
   <div class="my-1">
     <div v-if="isDownload(info.icon)">
       <a :href="pdfFile" :download="info.text">
-        <i :class="info.icon"></i>{{info.text}}
+        <i :class="info.icon"></i><span>{{info.text}}</span>
       </a>
     </div>
     <div v-else>
-      <i :class="info.icon"></i>{{info.text}}
+      <i :class="info.icon"></i><span>{{info.text}}</span>
     </div>
   </div>
 </template>
@@ -39,5 +39,11 @@ i {
 a {
   color: var(--bs-body-color)!important;
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  span {
+    font-size: 0.8rem;
+  }
 }
 </style>
