@@ -1,6 +1,7 @@
 <template>
   <div class="main">
     <Sidebar :menu="sidebarMenu"/>
+    <Header :menu="sidebarMenu"/>
     <div class="container">
       <div class="content">
         <router-view></router-view>
@@ -11,12 +12,14 @@
 
 <script>
 import Sidebar from './components/Sidebar'
+import Header from './components/Header'
 import { sidebarMenu } from './assets/json/sidebar.json'
 
 export default {
   name: 'App',
   components: {
     Sidebar,
+    Header,
   },
   data() {
     return {
@@ -37,11 +40,12 @@ export default {
 
 .container {
   width: 100%;
+  overflow: hidden;
 }
 
 .container > .content {
-  min-height: 100vh;
   display: flex;
+  min-height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -50,5 +54,12 @@ h1,h2,h3,h4 {
   text-transform: uppercase;
   font-family: 'Saira Condensed', sans-serif;
   font-stretch: ultra-condensed;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    top: 50px;
+    position: relative;
+  }
 }
 </style>
