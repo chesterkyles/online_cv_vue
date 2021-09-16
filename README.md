@@ -1,5 +1,7 @@
 # online_cv_vue
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/70c7b472-1ff5-4294-b4af-4c7ef76499a7/deploy-status)](https://app.netlify.com/sites/chestercolita/deploys)
+
 ## Project setup
 ```
 npm install
