@@ -10,6 +10,9 @@
         </header>
         <section class="modal-body">
           <slot name="body"></slot>
+          <div class="modal-close-small">
+            <button type="button" class="btn btn-info" @click="close">close</button>
+          </div>
         </section>
         <footer v-if="withFooter" class="modal-footer">
           <slot name="header"></slot>
@@ -38,7 +41,7 @@
   };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .modal-backdrop {
   position: fixed;
   background-color: rgba(0, 0, 0, 0.3);
@@ -94,13 +97,6 @@
   margin-left: auto!important;
 }
 
-.btn-green {
-  color: white;
-  background: #4AAE9B;
-  border: 1px solid #4AAE9B;
-  border-radius: 2px;
-}
-
 .modal-fade-enter,
 .modal-fade-leave-to {
   opacity: 0;
@@ -109,5 +105,30 @@
 .modal-fade-enter-active,
 .modal-fade-leave-active {
   transition: opacity .5s ease;
+}
+
+.modal-close-small {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .modal-header {
+    display:none;
+  }
+
+  .modal-close-small {
+    display: block;
+    text-align: center;
+
+    > button {
+      border-radius: 16px;
+      border-color: rgba(var(--bs-info-rgb), 0.7);
+      background-color: rgba(var(--bs-info-rgb), 0.7);
+      box-shadow: 0 .125rem .25rem rgba(23, 88, 107, 0.95)!important;
+      margin-top: 20px;
+      padding: 0 20px;
+    }
+  }
+
 }
 </style>

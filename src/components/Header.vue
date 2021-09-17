@@ -1,22 +1,20 @@
 <template>
-  <header class="navbar">
-    <div v-outside="hideMenu">
-      <TastyBurgerButton
-        ref="hamburger"
-        type="spin"
-        :active="isActive"
-        :color="color"
-        :active-color="activeColor"
-        :rounded="true"
-        @toggle="onToggle"
-      />
-      <transition name="fade">
-        <Navigation 
-          :menu="menu" 
-          v-if="isActive"
-          @click.native="hideMenu" />
-      </transition>
-    </div>
+  <header class="navbar" v-outside="hideMenu">
+    <TastyBurgerButton
+      ref="hamburger"
+      type="spin"
+      :active="isActive"
+      :color="color"
+      :active-color="activeColor"
+      :rounded="true"
+      @toggle="onToggle"
+    />
+    <transition name="fade">
+      <Navigation 
+        :menu="menu" 
+        v-if="isActive"
+        @click.native="hideMenu" />
+    </transition>
   </header>
 </template>
 
@@ -48,21 +46,6 @@ export default {
     },
     hideMenu() {
       this.isActive = false
-    }
-  },
-  directives: {
-    outside: {
-      bind(el, binding, vnode) {
-        el.clickOutsideEvent = function (event) {
-          if (!(el == event.target || el.contains(event.target))) {
-            vnode.context[binding.expression](event);
-          }
-        };
-        document.body.addEventListener('click', el.clickOutsideEvent)
-      },
-      unbind(el) {
-        document.body.removeEventListener('click', el.clickOutsideEvent)
-      },
     }
   },
 }

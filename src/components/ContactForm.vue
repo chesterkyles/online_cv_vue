@@ -61,23 +61,26 @@ export default {
         .then((result) => {
             this.isSendSuccessful = true
             this.showModal()
+            this.resetModalValue()
             console.log('SUCCESS!', result.status, result.text);
         }, (error) => {
             this.isSendSuccessful = false
             this.showModal()
             console.log('FAILED...', error);
         });
+        
     },
     showModal() {
       this.isModalVisible = true
     },
     closeModal() {
-      this.modalBody = []
       this.isModalVisible = false
+    },
+    resetModalValue() {
+      this.$refs.observer.reset()
       this.name = ''
       this.email = ''
       this.message = ''
-      this.$refs.observer.reset()
     }
   },
 }
@@ -116,9 +119,12 @@ button {
     font-weight: 600;
   }
 
-  &:hover,
+  &:hover {
+    transform: translateY(-0.15em);
+  }
+
   &:focus {
-    transform: translateY(-0.1em);
+    background-color: rgba(var(--bs-info-rgb), 0.5);
   }
 }
 </style>
