@@ -30,36 +30,5 @@ export default {
 </script>
 
 <style>
-.main {
-  --bs-bg-opacity: 0.2;
-  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity));
-  display: flex;
-  flex-wrap: nowrap;
-  height: -webkit-fill-available;
-}
-
-.container {
-  width: 100%;
-  overflow: hidden;
-}
-
-.container > .content {
-  display: flex;
-  min-height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-h1,h2,h3,h4 {
-  text-transform: uppercase;
-  font-family: 'Saira Condensed', sans-serif;
-  font-stretch: ultra-condensed;
-}
-
-@media screen and (max-width: 768px) {
-  .main {
-    top: 50px;
-    position: relative;
-  }
-}
+@import './assets/scss/global.scss';
 </style>

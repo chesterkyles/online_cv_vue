@@ -74,9 +74,5 @@ h3 {
   h1 {
     font-size: 4rem;
   }
-
-  ul {
-    text-align: center;
-  }
 }
 </style>

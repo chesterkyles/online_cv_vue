@@ -19,6 +19,20 @@ Vue.use(VueLazyload, {
 
 Vue.config.productionTip = false
 
+Vue.directive('outside', {
+  bind(el, binding) {
+    el.clickOutsideEvent = function (event) {
+      if (!(el == event.target || el.contains(event.target))) {
+        binding.value(event);
+      }
+    };
+    document.body.addEventListener('click', el.clickOutsideEvent)
+  },
+  unbind(el) {
+    document.body.removeEventListener('click', el.clickOutsideEvent)
+  },
+})
+
 new Vue({
   router,
   render: h => h(App),

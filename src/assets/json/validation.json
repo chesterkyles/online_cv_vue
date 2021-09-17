@@ -1,0 +1,16 @@
+{
+  "en": {
+      "fields": {
+        "name": {
+          "required": "Name field is required"
+        },
+        "email": {
+          "required": "Email field is required",
+          "email": "Email field should be a valid email address"
+        },
+        "message": {
+          "required": "Message field is required"
+        }
+      }
+    }
+}

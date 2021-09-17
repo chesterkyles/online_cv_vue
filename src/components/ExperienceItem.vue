@@ -4,7 +4,7 @@
       <h3>{{ job.title }}, <span>{{ job.company }}</span></h3>
       <h4>{{ job.years }}</h4>
       <div class="card_details_list">
-        <div class="card_details_bar"></div>
+        <div class="bar card_details_bar"></div>
         <ul class="m-0">
           <li v-for="description in job.description" :key="description"> {{ description }} </li>
         </ul>
@@ -48,11 +48,6 @@ h3 {
   }
 
   .card_details_bar {
-    --bs-bg-opacity: 0.8;
-    background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
-    height: 1px;
-    margin: 10px 5px;
-    border-radius: 5px;
     width: 50px;
     transition: width 1s ease-in-out;
   }
@@ -69,14 +64,6 @@ h3 {
       width: 200px;
     }
   }
-}
-
-.card_details_bar {
-  --bs-bg-opacity: 0.8;
-  background-color: rgba(var(--bs-info-rgb),var(--bs-bg-opacity))!important;
-  height: 1px;
-  margin: 10px 5px;
-  border-radius: 5px;
 }
 
 .card_text {

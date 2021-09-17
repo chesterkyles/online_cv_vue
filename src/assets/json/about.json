@@ -19,16 +19,24 @@
   ],
   "personalLinks": [
     {
+      "name": "Linkedin",
       "path": "https://www.linkedin.com/in/chesterkyles/",
       "icon": "fa-linkedin-in"
     },
     {
+      "name": "Github",
       "path": "https://www.github.com/chestercolita",
       "icon": "fa-github-alt"
     },
     {
+      "name": "Instagram",
       "path": "https://www.instagram.com/chesterkylescolita/",
       "icon": "fa-instagram"
+    },
+    {
+      "name": "Messenger",
+      "path": "https://www.messenger.com/chesterkyles",
+      "icon": "fa-facebook-messenger"
     }
   ]
 }
