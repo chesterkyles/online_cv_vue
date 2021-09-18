@@ -5,9 +5,7 @@
         <FormInput type="text" name="name" rules="required" v-model="name"/>
         <FormInput type="email" name="email" rules="required|email" v-model="email" />
         <FormTextArea name="message" rules="required" v-model="message" />
-        <button type="submit" class="btn form-control rounded-pill">
-          <span>Submit</span>
-        </button>
+        <Button addClass="form-control" text="Submit" />
       </form>
       <Modal v-show="isModalVisible" @close="closeModal" size="modal-sm">
         <template v-slot:body>
@@ -31,6 +29,7 @@
 import { ValidationObserver } from 'vee-validate';
 import FormInput from '../components/FormInput'
 import FormTextArea from '../components/FormTextArea'
+import Button from '../components/Button'
 import Modal from '../components/Modal'
 import emailjs from 'emailjs-com';
 
@@ -40,6 +39,7 @@ export default {
     ValidationObserver,
     FormInput,
     FormTextArea,
+    Button,
     Modal,
   },
   data() {
