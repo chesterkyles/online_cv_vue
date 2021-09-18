@@ -79,7 +79,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   .postcard {
     flex-wrap: inherit;
 
@@ -166,7 +166,7 @@ $main-blue-rgb-015: rgba(var(--bs-info-rgb), 0.05) !default;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
 	.blue::before {
 		background-image: linear-gradient(
 			-80deg,

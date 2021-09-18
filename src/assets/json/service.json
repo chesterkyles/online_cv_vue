@@ -1,0 +1,36 @@
+{
+    "services": [
+      {
+        "name": "Electronics Project Consultation",
+        "icon": "service-elex.png",
+        "categories": [
+            "Arduino",
+            "Sensors",
+            "IoT",
+            "Raspberry Pi",
+            "Automation"
+        ]
+      },
+      {
+        "name": "Math and Science Tutorials",
+        "icon": "service-teach.png",
+        "categories": [
+            "Pre-Calculus",
+            "Calculus",
+            "Engineering Math",
+            "Chemistry",
+            "Physics",
+            "Advanced Physics"
+        ]
+      },
+      {
+        "name": "Website Design and Development",
+        "icon": "service-web.png",
+        "categories": [
+            "Business Landing Pages",
+            "Online Portfolio",
+            "Freelance Websites"
+        ]
+      }
+    ]
+  }
