@@ -9,7 +9,8 @@
             "IoT",
             "Raspberry Pi",
             "Automation"
-        ]
+        ],
+        "description": "I provide professional consultation and advice especially to students who are working for their research."
       },
       {
         "name": "Math and Science Tutorials",
@@ -21,7 +22,8 @@
             "Chemistry",
             "Physics",
             "Advanced Physics"
-        ]
+        ],
+        "description": "I offer tutoring services to students who are struggling with Mathematics, Chemistry and Physics."
       },
       {
         "name": "Website Design and Development",
@@ -30,7 +32,8 @@
             "Business Landing Pages",
             "Online Portfolio",
             "Freelance Websites"
-        ]
+        ],
+        "description": "I create fully functional web applications such as dashboards, online portfolios, electronics-monitoring apps, etc."
       }
     ]
   }
