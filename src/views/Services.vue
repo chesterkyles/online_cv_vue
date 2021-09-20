@@ -2,7 +2,7 @@
   <div :id="$options.name" class="col-10">
     <h1>My {{$options.name}}</h1>
     <div class="row justify-content-center mb-2 mb-xxl-5">
-      <ServiceItem v-for="(service, index) in services" :key="index" :service="service" />
+      <ServiceItem v-for="(service, index) in services" :key="index" :service="service" id="service-item"/>
     </div>
     <div class="text-center my-4">
       <router-link :to="{ name: 'Contact' }">
@@ -45,5 +45,13 @@ h1 {
   margin-bottom: 20px;
   margin-top: 30px;
   }
+}
+
+.row:hover #service-item {
+  opacity: 0.6;
+}
+
+.row #service-item:hover  {
+  opacity: 1;
 }
 </style>
